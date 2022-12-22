@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+:root{
+    --primary-font: 'Kanit', sans-serif;
+    --text-color: #FFFFFF;
+    --primary-color: #4c566a;
+    --secondary-color: #434c5e;
+    --tertiary-color: #3b4252;
+    --quaternary-color: #2e3440;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    width: 100%;
+    background-color: var(--quaternary-color);
+    font-family: var(--primary-font);
+    color: var(--text-color);
+}
+
+.title-name{
+    line-height: 1;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: var(--quaternary-color);
+}
+
+nav{
+    background-color: var(--primary-color);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    box-shadow: 0 3px 2px var(--tertiary-color);
+}
+
+nav ul{
+    display: flex;
+    white-space: nowrap;
+    gap: 1.9rem;
+}
+
+.burger-menu{
+    display: none;
+    font-size: 2rem;
+    border:0;
+    background-color:transparent;
+    cursor: pointer;
+}
+
+.menu-bars{
+    display: flex;
+    justify-content: center;
+    max-width: 2rem;
+    padding: 0.1rem;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.5rem;
+    max-width: 68.75rem;
+}
+
+.hero img{
+    margin: 5rem;
+    height: 30rem;
+    width: auto;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.418);
+}
