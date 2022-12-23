@@ -87,12 +87,12 @@ nav ul{
     display: flex;
     align-items: center;
     justify-content: left;
-    gap: 2rem;
+    gap: 3.5rem;
     box-shadow: 30px 0 26px rgba(0, 0, 0, 0.418);
 }
 
 .portrait{
-    margin: 5rem;
+    margin: 3rem;
     width: 30vw;
     height: auto;
     border-radius: 50%;
@@ -106,9 +106,8 @@ nav ul{
 }
 
 .social-links{
-    width: 1.4vw;
-    height: auto;
-    padding: 7rem;
+    padding: 5rem;
+    width: 1vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,7 +116,7 @@ nav ul{
 }
 
 .social-icon{
-    width: 5rem;
+    width: 5vw;
 }
 
 .skills{
