@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 :root{
     --primary-font: 'Kanit', sans-serif;
     --text-color: #FFFFFF;
@@ -13,14 +18,12 @@ html{
     scroll-behavior: smooth;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
 
 body{
-    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
     background-color: var(--quaternary-color);
     font-family: var(--primary-font);
     color: var(--text-color);
@@ -44,6 +47,7 @@ nav a:hover{
 }
 
 nav{
+    width:100%;
     background-color: var(--primary-color);
     position: sticky;
     top: 0;
@@ -54,6 +58,7 @@ nav{
     justify-content: space-between;
     padding: 1.5rem 3.5rem;
     box-shadow: 0 3px 2px var(--tertiary-color);
+    font-size: 1.5rem;
 }
 
 nav ul{
@@ -88,39 +93,88 @@ nav ul{
 }
 
 .portrait{
-    margin: 5rem;
-    height: 30rem;
-    width: auto;
+    margin: 3rem;
+    width: 30vw;
+    height: auto;
     border-radius: 50%;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.418);
 }
 
 .hero-text{
     text-align: justify;
-    font-size: 1.3rem;
-    max-width: 30rem;
+    font-size: 1.4vw;
     padding: 1rem;
 }
 
 .social-links{
-    padding-left: 8rem;
+    padding: 5rem;
+    width: 1vw;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 1.5rem;
     flex-direction: column;
 }
 
 .social-icon{
-    width: 5rem;
+    width: 5vw;
 }
 
-.skills{
+.projects{
     align-items: center;
     justify-content: center;
-    padding: 1.5rem 0;
+    padding: 3rem;
+    text-align: justify;
 }
 
-.skills h1{
+.projects h1{
     font-size: 2rem;
     text-align: center;
 }
+
+.projects ul{
+    padding: 2rem 0rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+}
+
+.video iframe{
+    width: 40vw;
+    aspect-ratio: 16/9;
+}
+.social-media li{
+    width: 25vw;
+    min-width: 0;
+    min-height: 0;
+}
+
+.instagram-media{
+    min-height: 0;
+    min-width: 0;
+}
+
+.description{
+    font-size: 1.2rem;
+}
+
+.video, .social-media{
+    margin: 2rem 0;
+    padding: 2rem;
+    background-color: var(--secondary-color);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.418);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    color: var(--quaternary-color)
+}
+
+.projects h2{
+    font-size: 1.8rem;
+    text-align: center;
+}
+
