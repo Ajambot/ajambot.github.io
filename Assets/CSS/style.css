@@ -23,7 +23,7 @@ body{
     overflow-x: hidden;
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 100%;
     background-color: var(--quaternary-color);
     font-family: var(--primary-font);
     color: var(--text-color);
@@ -58,6 +58,7 @@ nav{
     justify-content: space-between;
     padding: 1.5rem 3.5rem;
     box-shadow: 0 3px 2px var(--tertiary-color);
+    font-size: 1.5rem;
 }
 
 nav ul{
@@ -119,13 +120,61 @@ nav ul{
     width: 5vw;
 }
 
-.skills{
+.projects{
     align-items: center;
     justify-content: center;
-    padding: 1.5rem 0;
+    padding: 3rem;
+    text-align: justify;
 }
 
-.skills h1{
+.projects h1{
     font-size: 2rem;
     text-align: center;
 }
+
+.projects ul{
+    padding: 2rem 0rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+}
+
+.video iframe{
+    width: 40vw;
+    aspect-ratio: 16/9;
+}
+.social-media li{
+    width: 25vw;
+    min-width: 0;
+    min-height: 0;
+}
+
+.instagram-media{
+    min-height: 0;
+    min-width: 0;
+}
+
+.description{
+    font-size: 1.2rem;
+}
+
+.video, .social-media{
+    margin: 2rem 0;
+    padding: 2rem;
+    background-color: var(--secondary-color);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.418);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    color: var(--quaternary-color)
+}
+
+.projects h2{
+    font-size: 1.8rem;
+    text-align: center;
+}
+
