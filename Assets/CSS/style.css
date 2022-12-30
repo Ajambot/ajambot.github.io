@@ -123,11 +123,11 @@ nav ul{
 .projects{
     align-items: center;
     justify-content: center;
-    padding: 3rem;
+    padding: 2rem;
     text-align: justify;
 }
 
-.projects h1{
+.title-1{
     font-size: 2rem;
     text-align: center;
 }
@@ -141,27 +141,20 @@ nav ul{
     gap: 7rem;
 }
 
-.video iframe{
-    width: 40vw;
+.youtubeVid{
     aspect-ratio: 16/9;
 }
-.social-media li{
-    width: 25vw;
-    min-width: 0;
-    min-height: 0;
-}
 
-.instagram-media{
-    min-height: 0;
-    min-width: 0;
+iframe.instagram-media.instagram-media-rendered {
+    min-width: unset !important;
 }
 
 .description{
     font-size: 1.2rem;
 }
 
-.video, .social-media{
-    margin: 2rem 0;
+.container{
+    margin-top: 3rem;
     padding: 2rem;
     background-color: var(--secondary-color);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.418);
@@ -173,8 +166,14 @@ nav ul{
     color: var(--quaternary-color)
 }
 
-.projects h2{
-    font-size: 1.8rem;
+.title-2{
+    font-size: 2.3rem;
     text-align: center;
 }
 
+.skills{
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: justify;
+}
