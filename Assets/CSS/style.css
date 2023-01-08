@@ -132,21 +132,24 @@ nav ul{
     text-align: center;
 }
 
-.projects ul{
+.project-list{
     padding: 2rem 0rem;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 7rem;
+    flex-wrap: wrap;
+    column-gap: 7rem;
+    row-gap: 2rem;
 }
 
 .youtubeVid{
     aspect-ratio: 16/9;
+    min-width: 250px;
 }
 
 iframe.instagram-media.instagram-media-rendered {
-    min-width: unset !important;
+    min-width: 250px !important;
 }
 
 .description{
@@ -154,7 +157,7 @@ iframe.instagram-media.instagram-media-rendered {
 }
 
 .container{
-    margin-top: 3rem;
+    margin-top: 2rem;
     padding: 2rem;
     background-color: var(--secondary-color);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.418);
@@ -174,6 +177,110 @@ iframe.instagram-media.instagram-media-rendered {
 .skills{
     align-items: center;
     justify-content: center;
-    padding: 2rem;
+    padding: 0 2rem;
     text-align: justify;
+}
+
+.skills-graph{
+    width:100%!important;
+    margin: auto;
+}
+
+.skills-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    flex-wrap: wrap;
+}
+
+#hard{
+    justify-content: center;
+    width: 46.3vw;
+    height: 46.3vw;
+    min-width:326px;
+    min-height: 326px;
+    aspect-ratio: 1/1;
+    padding: 1.2vw;
+}
+
+#soft{
+    justify-content: center;
+    width: 48.9%;
+    min-width:326px;
+    padding: 1.2vw;
+}
+
+.soft-skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 3rem;
+    column-gap: 5rem;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.soft-skills li{
+    width: 9.3rem;
+}
+.soft-skills li img{
+    padding: 1.5rem;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.418);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.title-3{
+    font-size: 2.2rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.scroll-up{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 1;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.scroll-up img{
+    width: 3rem;
+    height: 2.5rem;
+    padding: 0.5rem;
+}
+
+@media (max-width: 800px){
+    .hero{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .portrait{
+        width: 60vw;
+    }
+
+    .hero-text{
+        font-size: 1.5rem;
+        padding: 0 2rem;
+    }
+
+    .social-links{
+        flex-direction: row;
+    }
+
+    .social-icon{
+        width: 10vw;
+    }
 }
