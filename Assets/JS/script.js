@@ -1,5 +1,4 @@
-let bgColors = ['#01befe','#aaff00', '#8f00ff', '#FFFFFF', '#ffdd00', '#FFA500', '#19d2c3', '#a8dadc', '#FEE59A'];
-let bgColors2 = ['#ffadad', '#ffd6a5', '#fdffb6', '#caffbf', '#9bf6ff', '#a0c4ff', '#bdb2ff', '#ffc6ff', '#FFFFFC'];
+let bgColors = ['#F0F5F9', '#83a691'];
 
 window.onload = function() {
     const ul = document.querySelectorAll(".project-list");
@@ -14,7 +13,7 @@ window.onload = function() {
     let i=0;
     list.forEach((element) => {
         let icons = Array.from(element.getElementsByTagName("img"));
-        icons[0].style.backgroundColor = bgColors[i++];
+        icons[0].style.backgroundColor = bgColors[i++%2];
     });
 }
 
@@ -48,11 +47,11 @@ var ctx2 = document.getElementById("soft-skills");
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ['HTML', 'CSS', 'JavaScript', 'C/C++', ['MIPS', 'architecture'], 'Git'],
+        labels: ['HTML', 'CSS', 'JavaScript', 'C/C++', ['MIPS', 'architecture'], 'Git', 'Java'],
         datasets: [{
-            data: [70, 70, 40, 90, 60, 40],
-            backgroundColor: ['#ffff1f', '#5587ff', '#f72c1c', '#2eff71', '#9b19ff', '#34498e'],
-            borderColor: ['#efd40f', '#3418db', '#b12c3f', '#2ecc71', '#8119ff', '#11198f'],
+            data: [70, 70, 40, 90, 60, 40, 60],
+            backgroundColor: ["#546a76", "#88a0a8", "#9eb7ae", "#b4ceb3", "#c8d1be", "#dbd3c9", "#fad4d8"],
+            borderColor: ["#555555"],
             borderWidth: 2
         }]
     },
@@ -91,42 +90,3 @@ var myChart = new Chart(ctx, {
         }
     }
 });
-
-/*var myChart = new Chart(ctx2, {
-    type: 'bar',
-    data: {
-        labels: ['HTML', 'CSS', 'JavaScript', 'C/C++', 'MIPS architecture', 'Git'],
-        datasets: [{
-            data: [70, 70, 40, 90, 60, 40],
-            backgroundColor: ['#ffff1f', '#5587ff', '#f72c1c', '#2eff71', '#9b19ff', '#34498e'],
-            borderColor: ['#efd40f', '#3418db', '#b12c3f', '#2ecc71', '#8119ff', '#11198f'],
-            borderWidth: 2
-        }]
-    },
-    options: {
-        indexAxis: 'y',
-        scales: {
-            x: {
-                ticks: {
-                    beginAtZero: true,
-                    stepSize: 50,
-                    callback: (value, index, ticks)=> {
-                        return yLabels[value];
-                    }
-                }
-            }
-        },
-        plugins: {
-            title: {
-                display: true,
-                text: 'Soft Skills',
-                font: {
-                    size: 25
-                }
-            },
-            legend: {
-                display: false
-            },
-        }
-    }
-});*/
