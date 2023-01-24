@@ -18,7 +18,7 @@
       <title>Martin Morales | Computer Science Student</title>
     </head>
     <body>
-        <nav>
+        <nav class="nav" id="navBar">
             <div class="title-name">
                 <h1> Martin Morales</h1>
                 <h3> Computer Science Student</h3>
@@ -29,9 +29,9 @@
                 <li><a href="#skills" class="nav-link">My Skills</a></li>
                 <li><a href="#contact" class="nav-link">Contact me</a></li>
             </ul>
-            <button class="burger-menu" id="burger-menu">
+            <a href="javascript:void(0);" class="burger-menu" id="burger-menu" onclick="myFunction()">
                 <img src="Assets/Icons/menu.png" alt="menu bars" class="menu-bars"/>
-            </button>
+            </a>
         </nav>
         <section class="hero" id="about">
             <img src="Assets/Images/portrait.jpeg" alt="portrait" class="portrait animate__animated animate__fadeIn" loading="lazy"/>
@@ -140,32 +140,48 @@
                 </div>
             </div>
         </section>
+        <section class="contact" id="contact">
+            <h1 class="title-1">Contact Me</h1>
+            <div class="form-container">
+            <form action="https://formspree.io/f/xnqynrzn" method="POST">
+                <div class="form-control">
+                <label for="email">Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="sender-email"
+                    placeholder="Enter Your Email"
+                    class="input-field"
+                    required
+                />
+                </div>
+                <div class="form-control">
+                <label for="message">Message</label>
+                <textarea
+                    id="message"
+                    cols="60"
+                    rows="10"
+                    placeholder="Enter Your Message"
+                    name="message"
+                    class="input-field"
+                    required
+                ></textarea>
+                </div>
+                <input
+                type="submit"
+                value="Submit"
+                id="submit-btn"
+                class="submit-btn"
+                />
+            </form>
+            </div>
+        </section>
+        <footer class="footer">
+            <p>Built with ❤️ by <a href="https://github.com/Ajambot" target="_blank">Martin Morales (Ajambot)</a></p>
+            <p><a href="credit.html">Click here</a> to see image and icon credits</p>
+        </footer>
         <i class="scroll-up" id="scroll-up">
             <img src="Assets/Icons/scroll-up.gif" alt="Scroll up icon"/>
         </i>
-        <a href="https://www.flaticon.com/free-icons/nav" 
-        title="nav icons">Nav icons created by TravisAvery - Flaticon</a>
-        <a href="https://www.flaticon.com/free-icons/email" 
-        title="email icons">Email icons created by Freepik - Flaticon</a>
-        <a href="https://www.flaticon.com/free-icons/user"
-        title="user icons">User icons created by Freepik - Flaticon</a>
-        <a href="https://www.flaticon.com/free-icons/project"
-        title="project icons">Project icons created by Uniconlabs - Flaticon</a>
-        <a href="https://www.flaticon.com/free-icons/team"
-        title="team icons">Team icons created by Freepik - Flaticon</a>
-        <a href="https://www.flaticon.com/free-icons/integration"
-        title="integration icons">Integration icons created by Freepik - Flaticon</a>
-        <a href="https://www.flaticon.com/free-icons/problem"
-        title="problem icons">Problem icons created by Freepik - Flaticon</a>
-        <a href="https://www.flaticon.com/free-icons/adaptation"
-        title="adaptation icons">Adaptation icons created by Freepik - Flaticon</a>
-        <a href="https://www.flaticon.com/free-icons/think"
-        title="think icons">Think icons created by Smashicons - Flaticon</a>
-        <a href="https://www.flaticon.com/free-icons/teamwork"
-        title="teamwork icons">Teamwork icons created by Becris - Flaticon</a>
-        <a href="https://www.flaticon.com/free-icons/interpersonal"
-        title="interpersonal icons">Interpersonal icons created by Flat Icons - Flaticon</a>
-        <a target="_blank" href="https://icons8.com/icon/AvKZFVr6j4UF/double-up">Double Up</a>
-        icon by <a target="_blank" href="https://icons8.com">Icons8</a>
     </body>
 </html>

@@ -1,4 +1,19 @@
 let bgColors = ['#F0F5F9', '#83a691'];
+const navLink = document.querySelectorAll(".nav-link");
+const nav = document.querySelector("nav");
+
+function myFunction() {
+    var x = document.querySelector("#navBar");
+    if (x.className === "nav") {
+      x.className += " responsive";
+    } else {
+      x.className = "nav";
+    }
+  }
+
+navLink.forEach((link) => link.addEventListener("click", () => {
+    nav.classList.remove("responsive");
+}));
 
 window.onload = function() {
     const ul = document.querySelectorAll(".project-list");
