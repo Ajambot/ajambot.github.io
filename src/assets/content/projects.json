@@ -1,0 +1,24 @@
+[
+    {
+        "title": "Quoteversation.me - The Quotes Social Media App",
+        "github": "https://www.github.com/Ajambot/Quoteversation",
+        "link": "https://www.quoteversation.me",
+        "bulletpoints": ["Employed the MERN stack and Typescript to develop a Twitter/Threads clone that allows users to share their favourite quotes with their friends and followers.",
+                        "Deployed the app on AWS using an EC2 instance for the backend with an Nginx Reverse Proxy handling https requests, and an S3 Bucket in collaboration with Cloudfront to serve the app to end users.",
+                        "Containerized the app using Docker for ease and reliability of deployment and set up Github Workflows for Continuous deployment to the AWS services."],
+        "techStack": {"React.png": "https://react.dev/", "NodeJs.png": "https://nodejs.org/en", "Typescript.png": "https://www.typescriptlang.org/",
+                        "MongoDB.png": "https://www.mongodb.com/", "Bootstrap.png": "https://getbootstrap.com/", "AWS.png": "https://aws.amazon.com/", "Docker.png": "https://www.docker.com/"},
+        "image": "Quoteversation.png"
+    },
+    {
+        "title": "WhisperLink - The Anonymous and Private Online Messaging Service",
+        "github": "https://www.github.com/Ajambot/WhisperLink",
+        "link": "https://whisperlink.web.app/",
+        "bulletpoints": ["Collaborated in a team of 3 developers to design, plan and implement an online chat app focused on anonymity and security.",
+                        "Spearheaded the implementation of end-to-end encryption, and seamless backend connectivity using React and Firebase."
+                        ],
+        "techStack": {"React.png": "https://react.dev/", "Firebase.png": "https://firebase.google.com/", "Typescript.png": "https://www.typescriptlang.org/"},
+        "image": "Quoteversation.png"
+    }
+
+]
