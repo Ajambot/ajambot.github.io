@@ -1,8 +1,10 @@
 <script setup lang="ts">
   import projects from './assets/content/projects.json';
   import jobsAndEd from './assets/content/jobsAndEducation.json';
+  import skills from './assets/content/skills.json'
   import Project from './components/Project.vue';
   import JobOrEducation from './components/JobOrEducation.vue'
+  import SkillSection from './components/SkillSection.vue';
 </script>
 
 <template>
@@ -23,4 +25,9 @@
     :dateRange="job.dateRange"
     :type="job.type"
     ></JobOrEducation>
+  <SkillSection v-for="(content, section) in skills"
+    :key="section"
+    :title="section"
+    :skills="content"
+  ></SkillSection>
 </template>

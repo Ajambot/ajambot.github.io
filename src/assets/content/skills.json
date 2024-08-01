@@ -1,0 +1,132 @@
+{
+    "frontend": [
+        {
+            "title": "HTML",
+            "image": "HTMLBlack.png"
+        },
+        {
+            "title": "CSS",
+            "image": "CSSBlack.png"
+        },
+        {
+            "title": "React",
+            "image": "ReactBlack.png"
+        },
+        {
+            "title": "Vite",
+            "image": "ViteBlack.png"
+        },
+        {
+            "title": "Vue",
+            "image": "VueBlack.png"
+        }
+    ],
+    "backend": [
+        {
+            "title": "Node.js",
+            "image": "NodeBlack.png"
+        },
+        {
+            "title": "Express.js",
+            "image": "ExpressBlack.png"
+        },
+        {
+            "title": "SQL",
+            "image": "SQLBlack.png"
+        },
+        {
+            "title": "MongoDB",
+            "image": "MongoDBBlack.png"
+        }
+    ],
+    "dataAnalysis": [
+        {
+            "title": "Python",
+            "image": "PythonBlack.png"
+        }
+    ],
+    "deployment": [
+        {
+            "title": "Docker",
+            "image": "DockerBlack.png"
+        },
+        {
+            "title": "AWS",
+            "image": "AWSBlack.png"
+        },
+        {
+            "title": "Firebase (GCP)",
+            "image": "FirebaseBlack.png"
+        },
+        {
+            "title": "Nginx",
+            "image": "NginxBlack.png"
+        }
+    ],
+    "languages": [
+        {
+            "title": "English (Fluent)",
+            "image": "English.png"
+        },
+        {
+            "title": "Spanish (Native)",
+            "image": "Spanish.png"
+        },
+        {
+            "title": "French (Intermediate)",
+            "image": "French.png"
+        }
+    ],
+    "other": [
+        {
+            "title": "C",
+            "image": "CBlack.png"
+        },
+        {
+            "title": "C++",
+            "image": "CppBlack.png"
+        },
+        {
+            "title": "Java",
+            "image": "JavaBlack.png"
+        },
+        {
+            "title": "Git",
+            "image": "GitBlack.png"
+        },
+        {
+            "title": "CI/CD",
+            "image": "CI_CDBlack.png"
+        }
+    ],
+    "soft": [
+        {
+            "title": "Presenting",
+            "image": "PresentingBlack.png"
+        },
+        {
+            "title": "Multi-Tasking",
+            "image": "Multi-TaskingBlack.png"
+        },
+        {
+            "title": "Time Management",
+            "image": "Time_ManagementBlack.png"
+        },
+        {
+            "title": "Team Coordination",
+            "image": "Team_CoordinationBlack.png"
+        },
+        {
+            "title": "Leadership",
+            "image": "LeadershipBlack.png"
+        },
+        {
+            "title": "Attention to Detail",
+            "image": "Attention_to_DetailBlack.png"
+        },
+        {
+            "title": "Problem-solving",
+            "image": "Problem-solvingBlack.png"
+        }
+    ]
+}

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { defineProps, computed } from 'vue';
+import { computed } from 'vue';
 interface Props {
     title: string,
     github: string,
