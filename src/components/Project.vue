@@ -20,9 +20,9 @@ const techStackPaths = computed(() => {
 const imagePath = computed(() => "/src/assets/images/projects/"+image);
 </script>
 <template>
-    <div class="flex flex-col w-screen items-center font-terminal p-5 gap-3 bg-black">
-        <div class="flex items-center gap-5 w-2/5">
-            <h2 class="text-4xl font-semibold text-white">{{ title }}</h2>
+    <div class="flex flex-col w-screen p-5 gap-3">
+        <div class="flex items-center gap-5">
+            <h2>{{ title }}</h2>
             <a :href="github" >
                 <img class="w-14 h-14" src="/src/assets/images/logos/Github.png" alt="Github Icon"/>
             </a>
@@ -30,8 +30,8 @@ const imagePath = computed(() => "/src/assets/images/projects/"+image);
                 <img class="w-16" src="/src/assets/images/logos/Webpage Icon.png" alt="Icon representing a webpage">
             </a>
         </div>
-        <div class="w-2/5">
-            <ul class="flex gap-10 w-fit flex-wrap bg-white p-3 rounded-md">
+        <div>
+            <ul class="flex gap-10 w-fit flex-wrap p-3 rounded-md">
                 <li v-for="(link, img) in techStackPaths">
                     <a :href="link" target="_blank">
                         <img class="drop-shadow-lg h-14 hover:scale-110 transition ease-in-out" :src="img">
@@ -39,11 +39,11 @@ const imagePath = computed(() => "/src/assets/images/projects/"+image);
                 </li>
             </ul>
         </div>
-        <ul class="w-2/5 space-y-4 list-inside leading-relaxed">
+        <ul class=" space-y-4 list-inside leading-relaxed">
             <li class="list-disc text-xl" v-for="(item) in bulletpoint">{{ item }}</li>
         </ul>
-        <a :href="imagePath" class="p-6 w-2/5 hover:scale-105 transition ease-in-out" target="_blank">
-            <img :src="imagePath"/>
+        <a :href="imagePath" class="w-4/5 max-w-4xl mx-20 hover:scale-105 transition ease-in-out hover:cursor-zoom-in" target="_blank">
+            <img :src="imagePath" />
         </a>
     </div>
 </template>

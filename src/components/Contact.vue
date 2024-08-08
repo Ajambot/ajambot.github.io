@@ -1,7 +1,6 @@
 <template>
-  <h2>Contact</h2>
-  >
-  <div>
+  <div class="flex flex-col w-screen p-5 gap-3">
+    <h2>Contact</h2>
     <a href="">
         <img src="" alt="" />
     </a>

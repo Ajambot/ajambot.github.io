@@ -12,8 +12,8 @@
 
 <template>
   <Header></Header>
-  <Hero></Hero>
-  <JobOrEducation v-for="(job, index) in jobsAndEd"
+  <Hero id="about"></Hero>
+  <JobOrEducation id="education" v-for="(job, index) in jobsAndEd"
     :key="index"
     :bulletpoint="job.bulletpoints"
     :titleOrDegree="job.titleOrDegree"
@@ -21,7 +21,7 @@
     :dateRange="job.dateRange"
     :type="job.type"
     ></JobOrEducation>
-  <Project v-for="(project, index) in projects"
+  <Project id="projects" v-for="(project, index) in projects"
     :key="index"
     :title="project.title"
     :github="project.github"
@@ -30,10 +30,10 @@
     :tech-stack="project.techStack"
     :image="project.image"
     ></Project>
-  <SkillSection v-for="(content, section) in skills"
+  <SkillSection id="skills"v-for="(content, section) in skills"
     :key="section"
     :title="section"
     :skills="content"
   ></SkillSection>
-  <Contact></Contact>
+  <Contact id="contact"></Contact>
 </template>
