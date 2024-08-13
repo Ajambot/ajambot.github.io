@@ -19,11 +19,12 @@ const burgerToggle = ref(false);
     v-bind:class="(burgerToggle)?'':'hidden'"
       class="sm:flex sm:visible sm:flex-row gap-2 flex-wrap px-5 sm:gap-5 justify-end sm:px-5"
     >
-      <li class="hover:underline"><a href="#about">About Me</a></li>
-      <li class="hover:underline"><a href="#education">Education</a></li>
-      <li class="hover:underline"><a href="#projects">Projects</a></li>
-      <li class="hover:underline"><a href="#skills">Skills</a></li>
-      <li class="hover:underline"><a href="#contact">Contact</a></li>
+      <li @click="burgerToggle = !burgerToggle" class="hover:underline"><a href="#about">About Me</a></li>
+      <li @click="burgerToggle = !burgerToggle" class="hover:underline"><a href="#education">Education</a></li>
+      <li @click="burgerToggle = !burgerToggle" class="hover:underline"><a href="#work">Work</a></li>
+      <li @click="burgerToggle = !burgerToggle" class="hover:underline"><a href="#projects">Projects</a></li>
+      <li @click="burgerToggle = !burgerToggle" class="hover:underline"><a href="#skills">Skills</a></li>
+      <li @click="burgerToggle = !burgerToggle" class="hover:underline"><a href="#contact">Contact</a></li>
     </ul>
   </div>
 </template>

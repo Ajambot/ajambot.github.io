@@ -22,19 +22,5 @@
                             "Best Graduate and Best State Exam of the class of 2020-2021.",
                             "Multiple Academic Awards in areas such as Math, English and Computer Science during 8 years of tenure."
                         ]
-    },
-    {
-        "titleOrDegree": "Data Analyst Co-op Student",
-        "companyOrSchool": "Lakehead University International Enrolment",
-        "dateRange": "May 2023 - September 2023, May 2024 - September 2024",
-        "type": "Internship",
-        "location": "Thunder Bay, ON",
-        "bulletpoints": [
-            "Engineered internal tools written in Python and Google Apps Script to automate the import of information to the database, drastically enhancing productivity.",
-            "Conducted several detailed data analyses of yearly performance and presented recommendations to stakeholders for the upcoming cycle.",
-            "Developed and tested multiple machine learning models with Scikit-learn and TensorFlow that predict student enrollment with an 80% accuracy given factors like engagement with marketing campaigns, country, level of study, etc.",
-            "Supervised and mentored a team member in advanced data cleaning and importing procedures."
-        ]
-
     }
 ]
