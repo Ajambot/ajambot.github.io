@@ -12,7 +12,7 @@
         @apply font-terminal;
     }
     h1 {
-        @apply my-3 text-3xl sm:text-4xl md:text-5xl text-center font-bold p-5 bg-black text-white w-fit m-auto shadow-xl scroll-mt-20;
+        @apply my-5 text-3xl sm:text-4xl md:text-5xl text-center font-bold p-5 bg-black text-white w-fit m-auto shadow-xl scroll-mt-20;
     }
     h2 {
         @apply text-2xl sm:text-3xl md:text-4xl font-semibold;
@@ -25,5 +25,8 @@
     }
     hr {
         @apply m-5 border-none h-px bg-black;
+    }
+    button {
+        @apply bg-black text-white p-2 my-2 hover:bg-gray-800 font-semibold rounded-lg
     }
 }
