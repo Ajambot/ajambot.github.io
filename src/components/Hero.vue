@@ -13,7 +13,8 @@
         collaborate on impactful projects.
       </p>
       <a target="_blank" href="https://docs.google.com/document/d/1bWJbVQldPWEetv6TdtJ95dHFfcx28r8g">
-        <button type="button">View Resume</button>
+        <button class="bg-black text-white p-2 my-2 hover:bg-gray-800 font-semibold rounded-lg" type="button">View
+          Resume</button>
       </a>
     </div>
   </div>

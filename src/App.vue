@@ -25,7 +25,7 @@ import Hero from './components/Hero.vue';
     :type="job.type"></JobOrEducation>
   <hr />
   <h1 id="projects">Projects</h1>
-  <div class="flex flex-wrap p-5 gap-20 xl:gap-0 content-between justify-center w-screen">
+  <div class="flex flex-wrap p-5 gap-20 xl:gap-20 content-between justify-center w-screen">
     <Project v-for="(project, index) in projects" :key="index" :title="project.title" :github="project.github"
       :link="project.link" :bulletpoint="project.bulletpoints" :tech-stack="project.techStack" :image="project.image">
     </Project>

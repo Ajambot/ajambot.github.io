@@ -26,7 +26,4 @@
     hr {
         @apply m-5 border-none h-px bg-black;
     }
-    button {
-        @apply bg-black text-white p-2 my-2 hover:bg-gray-800 font-semibold rounded-lg
-    }
 }
