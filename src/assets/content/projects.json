@@ -1,0 +1,35 @@
+[
+    {
+        "title": "Quoteversation",
+        "github": "https://www.github.com/Ajambot/Quoteversation",
+        "link": "https://www.quoteversation.me",
+        "bulletpoints": ["Employed the MERN stack and Typescript to develop a Twitter/Threads clone that allows users to share their favourite quotes with their friends and followers.",
+                        "Deployed the app on AWS using an EC2 instance for the backend with an Nginx Reverse Proxy handling https requests, and an S3 Bucket in collaboration with Cloudfront to serve the app to end users.",
+                        "Containerized the app using Docker for ease and reliability of deployment and set up Github Workflows for Continuous deployment to the AWS services."],
+        "techStack": {"React.png": "https://react.dev/", "NodeJs.png": "https://nodejs.org/en", "Typescript.png": "https://www.typescriptlang.org/",
+                        "MongoDB.png": "https://www.mongodb.com/", "Bootstrap.png": "https://getbootstrap.com/", "AWS.png": "https://aws.amazon.com/", "Docker.png": "https://www.docker.com/"},
+        "image": "Quoteversation.png"
+    },
+    {
+        "title": "WhisperLink",
+        "github": "https://www.github.com/Ajambot/WhisperLink",
+        "link": "https://whisperlink.web.app/",
+        "bulletpoints": ["Collaborated in a team of 3 developers to design, plan and implement an online chat app focused on anonymity and security.",
+                        "Spearheaded the implementation of end-to-end encryption, and seamless backend connectivity using React and Firebase.",
+                        "Successfully defended a research paper based on this project at the IEEE SNPD 2024 International Conference in Beijing, China."
+                        ],
+        "techStack": {"React.png": "https://react.dev/", "Firebase.png": "https://firebase.google.com/", "Typescript.png": "https://www.typescriptlang.org/"},
+        "image": "WhisperLink.png"
+    },
+    {
+        "title": "MoQuoDB",
+        "github": "https://www.github.com/Ajambot/MoQuoDB",
+        "bulletpoints": ["Implemented a Python command line interface using the pyodbc driver to perform CRUD operations on a local Microsoft SQL Server database with a predefined schema.",
+                        "Added a layer of abstraction to manipulating the local database, allowing anybody with some computer literacy to employ this ready-to-use product to store their favourite quotes.",
+                        "Built a feature that allows the CLI to web scrape the IMDB website to find relevant information about the movie/tv show that the user wishes to insert in the database."
+                        ],
+        "techStack": {"Python.png": "https://www.python.org/", "MSSQLServer.png": "https://www.microsoft.com/en-ca/sql-server/sql-server-downloads"},
+        "image": "MoQuoDB.png"
+    }
+
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "titleOrDegree": "HBSc Computer Science",
+        "companyOrSchool": "Lakehead University",
+        "dateRange": "September 2021 - December 2025",
+        "type": "Business focus. Minor in Economics. Co-op",
+        "location": "Thunder Bay, ON",
+        "bulletpoints": [
+                            "Cumulative GPA: 92.5%",
+                            "1st Place: Lakehead IEEE Hackathon",
+                            "President’s list: 2021-2022, 2022-2023, 2023-2024",
+                            "Awards: Sher Ali Mirza Award 2022 (1,780 CAD), Ontario Remembrance Award 2024 (10,000 CAD)"
+                        ]
+    },
+    {
+        "titleOrDegree": "High School Diploma",
+        "companyOrSchool": "Aspáen Juanambú School",
+        "dateRange": "June 2021",
+        "type": "Secondary School",
+        "location": "Cali, Colombia",
+        "bulletpoints": [
+                            "Best Graduate and Best State Exam of the class of 2020-2021.",
+                            "Multiple Academic Awards in areas such as Math, English and Computer Science during 8 years of tenure."
+                        ]
+    }
+]
