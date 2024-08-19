@@ -3,7 +3,7 @@ import { computed, ref } from 'vue';
 interface Props {
     title: string,
     github: string,
-    link: string,
+    link: string | undefined,
     bulletpoint: string[],
     techStack: Record<string, string | undefined>,
     image: string
@@ -31,7 +31,7 @@ const collapseBp = ref(true);
                     <a :href="github" class="basis-full" target="_blank">
                         <img class="aspect-square w-12" src="/src/assets/images/logos/Github.png" alt="Github Icon" />
                     </a>
-                    <a :href="link" class="basis-full" target="_blank">
+                    <a v-if="link" :href="link" class="basis-full" target="_blank">
                         <img class="aspect-square w-12" src="/src/assets/images/logos/Webpage Icon.png"
                             alt="Icon representing a webpage">
                     </a>
