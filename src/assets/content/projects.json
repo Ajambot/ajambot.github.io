@@ -29,7 +29,7 @@
                         "Built a feature that allows the CLI to web scrape the IMDB website to find relevant information about the movie/tv show that the user wishes to insert in the database."
                         ],
         "techStack": {"Python.png": "https://www.python.org/", "MSSQLServer.png": "https://www.microsoft.com/en-ca/sql-server/sql-server-downloads"},
-        "image": "WhisperLink.png"
+        "image": "MoQuoDB.png"
     }
 
 ]
