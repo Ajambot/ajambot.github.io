@@ -12,12 +12,12 @@ const { title, bulletpoint, techStack, image } = defineProps<Props>();
 const techStackPaths = computed(() => {
     let newPaths: Record<string, string | undefined> = {};
     for (const key in techStack) {
-        const newKey = "/src/assets/images/logos/" + key;
+        const newKey = new URL(`/src/assets/images/logos/${key}`, import.meta.url).href;
         newPaths[newKey] = techStack[key];
     }
     return newPaths;
 });
-const imagePath = computed(() => "/src/assets/images/projects/" + image);
+const imagePath = computed(() => new URL(`/src/assets/images/projects/${image}`, import.meta.url).href);
 const collapseStack = ref(true);
 const collapseBp = ref(true);
 </script>
