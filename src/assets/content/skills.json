@@ -13,6 +13,10 @@
             "image": "ReactBlack.png"
         },
         {
+            "title": "Next.Js",
+            "image": "NextjsBlack.png"
+        },
+        {
             "title": "Vite",
             "image": "ViteBlack.png"
         },
@@ -22,6 +26,10 @@
         }
     ],
     "Back-End": [
+        {
+            "title": "Go",
+            "image": "GoBlack.png"
+        },
         {
             "title": "Node.js",
             "image": "NodeBlack.png"

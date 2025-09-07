@@ -2,7 +2,7 @@
 import { computed, ref } from 'vue';
 interface Props {
     title: string,
-    github: string,
+    github: string | undefined,
     link: string | undefined,
     bulletpoint: string[],
     techStack: Record<string, string | undefined>,
@@ -28,7 +28,7 @@ const collapseBp = ref(true);
             <div class="flex flex-wrap justify-between w-full gap-5">
                 <h2 class="">{{ title }}</h2>
                 <div class="flex items-center gap-3">
-                    <a :href="github" class="basis-full" target="_blank">
+                    <a v-if="github" :href="github" class="basis-full" target="_blank">
                         <img class="aspect-square w-12" src="/src/assets/images/logos/Github.png" alt="Github Icon" />
                     </a>
                     <a v-if="link" :href="link" class="basis-full" target="_blank">
@@ -70,7 +70,7 @@ const collapseBp = ref(true);
             {{ (collapseBp) ? 'Read More' : 'Read Less' }}
         </button>
         <hr />
-        <a :href="imagePath" class="hover:contrast-50 animation ease-in hover:cursor-zoom-in" target="_blank">
+        <a v-if="image" :href="imagePath" class="hover:contrast-50 animation ease-in hover:cursor-zoom-in m-auto" target="_blank">
             <img class="rounded-b-[0.8rem] object-cover aspect-video" :src="imagePath" />
         </a>
     </div>

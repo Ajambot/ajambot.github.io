@@ -1,8 +1,34 @@
 [
     {
+        "title": "HTTP 1.1 in Go",
+        "github": "https://www.github.com/Ajambot/Go",
+        "bulletpoints": [
+                        "Implemented a lightweight HTTP/1.1 server from scratch in Go, including request parsing, response generation, and custom handlers",
+                        "Referenced RFC 9110 and RFC 9112 to ensure standards-compliant parsing and response behavior",
+                        "Built directly on top of TCP sockets, gaining a deep understanding of networking fundamentals and the HTTP protocol",
+                        "Designed extensible handler functionality, allowing users to define custom server logic similar to Go’s net/http package",
+                        "Practiced structured and independent learning, combining a guided course (Boot.dev) with self-directed research to reinforce protocol knowledge"
+        ],
+        "techStack": {"Go.png": "https://go.dev"},
+        "image": "HTTPinGo.png"
+    },
+
+    {
+        "title": "Riposte",
+        "bulletpoints": ["Led a team of developers in building an AI-assisted social media scheduling app using Next.js, integrating with Bluesky and X (formerly Twitter).",
+                        "Developed and implemented the Bluesky API connector to support login/logout, post creation, fetching user posts, and session management.",
+                        "Integrated Google Gemini LLM to generate personalized post captions based on user history and intent.",
+                        "Designed social media testing environments and contributed to project presentations and slide deck development.",
+                        "Gained hands-on experience with Next.js (SSR, routing, NextAuth), serverless functions, and third-party API integration."
+        ],
+        "techStack": {"Nextjs.png": "https://nextjs.org", "Typescript.png": "https://www.typescriptlang.org/",
+                        "Gemini.png": "https://gemini.google.com" },
+        "image": "Riposte.png"
+    },
+    
+    {
         "title": "Quoteversation",
         "github": "https://www.github.com/Ajambot/Quoteversation",
-        "link": "https://www.quoteversation.me",
         "bulletpoints": ["Employed the MERN stack and Typescript to develop a Twitter/Threads clone that allows users to share their favourite quotes with their friends and followers.",
                         "Deployed the app on AWS using an EC2 instance for the backend with an Nginx Reverse Proxy handling https requests, and an S3 Bucket in collaboration with Cloudfront to serve the app to end users.",
                         "Containerized the app using Docker for ease and reliability of deployment and set up Github Workflows for Continuous deployment to the AWS services."],

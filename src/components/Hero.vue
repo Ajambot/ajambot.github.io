@@ -8,8 +8,8 @@
         a Computer Science student at Lakehead University with a passion for
         data analysis, software development, and problem-solving. With a keen
         interest in creating innovative solutions and a strong academic record,
-        I am currently open for internship opportunities in Summer
-        2025. Explore my portfolio, and let's connect to discuss how we can
+        I am currently open for new grad Software Engineer opportunities starting January
+        2026. Explore my portfolio, and let's connect to discuss how we can
         collaborate on impactful projects.
       </p>
       <a target="_blank" href="https://docs.google.com/document/d/1bWJbVQldPWEetv6TdtJ95dHFfcx28r8g">

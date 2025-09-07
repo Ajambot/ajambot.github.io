@@ -2,7 +2,7 @@
     {
         "titleOrDegree": "Data Analyst Co-op Student",
         "companyOrSchool": "Lakehead University International Enrolment",
-        "dateRange": "May 2023 - September 2023, May 2024 - December 2024",
+        "dateRange": "May 2023 - September 2023, May 2024 - December 2024, May 2025 - September 2025",
         "type": "Internship",
         "location": "Thunder Bay, ON",
         "bulletpoints": [
@@ -20,7 +20,8 @@
         "type": "Contract Part-time",
         "location": "Thunder Bay, ON",
         "bulletpoints": [
-            "Performs social media sentiment analysis and topic modeling to analyze discussions and attitudes surrounding menopause in the workplace."
+            "Performs social media sentiment analysis and topic modeling to analyze discussions and attitudes surrounding menopause in the workplace.",
+            "Work In Progress Paper accepted into the ASAC 2025 and AOM 2025 conferences in Waterloo, Canada and Copenhagen, Denmark."
         ]
     }
 ]
