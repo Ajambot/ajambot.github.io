@@ -1,5 +1,29 @@
 [
     {
+        "title": "Lorcana Engine - Open Source Contributor",
+        "github": "https://www.github.com/TheCardGoat/lorcana-engine",
+        "link": "https://new.lorcanito.com/matchmaking",
+        "bulletpoints": [
+                        "Contributed to an open-source browser-based simulator for the Disney Lorcana TCG, improving UI interactivity by refactoring card popovers to be click-triggered and extending them to display move costs and faceup sub-cards.",
+                        "Implemented correct game logic for The Black Cauldron, a uniquely complex card requiring custom handling to enable valid plays from beneath it."
+        ],
+        "techStack": { "Svelte.png": "https://svelte.dev/", "NodeJs.png": "https://nodejs.org/en", "Typescript.png": "https://www.typescriptlang.org/"},
+        "image": "LorcanaEngine.png"
+    },
+
+    {
+        "title": "Reddit r/Canada AI Explorer (AI Collective Hackathon 2nd Place)",
+        "github": "https://www.github.com/Ajambot/ai-collective-hackathon",
+        "bulletpoints": [
+                        "Integrated Google Gemini API to generate contextual AI analysis of Reddit data, designing prompts to produce structured, insight-driven summaries from retrieved content",
+                        "Designed and implemented an end-to-end data pipeline to ingest, normalize, and serve large volumes of Reddit data using React and Node.js, with metadata linking to map AI-generated insights back to original records for auditability",
+                        "Owned the full project lifecycle — system design, implementation, testing, and optimization — under hackathon time constraints, including data access improvements to reduce redundant computation."
+        ],
+        "techStack": {"React.png": "https://react.dev/", "NodeJs.png": "https://nodejs.org/en", "Gemini.png": "https://gemini.google.com" },
+        "image": "RedditCanadaExplorer.png"
+    },
+
+    {
         "title": "HTTP 1.1 in Go",
         "github": "https://www.github.com/Ajambot/Go",
         "bulletpoints": [
@@ -15,6 +39,7 @@
 
     {
         "title": "Riposte",
+        "github": "https://www.github.com/Ajambot/scheduler",
         "bulletpoints": ["Led a team of developers in building an AI-assisted social media scheduling app using Next.js, integrating with Bluesky and X (formerly Twitter).",
                         "Developed and implemented the Bluesky API connector to support login/logout, post creation, fetching user posts, and session management.",
                         "Integrated Google Gemini LLM to generate personalized post captions based on user history and intent.",

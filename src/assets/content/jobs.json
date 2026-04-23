@@ -1,15 +1,16 @@
 [
     {
-        "titleOrDegree": "Data Analyst Co-op Student",
+        "titleOrDegree": "Data Analyst",
         "companyOrSchool": "Lakehead University International Enrolment",
-        "dateRange": "May 2023 - September 2023, May 2024 - December 2024, May 2025 - September 2025",
-        "type": "Internship",
+        "dateRange": "May 2023 - December 2025",
+        "type": "Full-Time and Part-Time",
         "location": "Thunder Bay, ON",
-        "bulletpoints": [
-            "Engineered internal tools written in Python and Google Apps Script to automate the import of information to the database, drastically enhancing productivity.",
-            "Conducted several detailed data analyses of yearly performance and presented recommendations to stakeholders for the upcoming cycle.",
-            "Developed and tested multiple machine learning models with Scikit-learn and TensorFlow that predict student enrollment with an 80% accuracy given factors like engagement with marketing campaigns, country, level of study, etc.",
-            "Supervised and mentored a team member in advanced data cleaning and importing procedures."
+        "bulletpoints": 
+        [
+            "Developed and tested multiple machine learning models with Scikit-learn and TensorFlow that predict student enrollment given factors like engagement with marketing campaigns, country, level of study, etc.",
+            "Designed and implemented a historic enrollment analysis dashboard by integrating 7 years of applicant and enrollment data, enabling stakeholders to track key performance indicators (KPIs), identify trends, and evaluate cyclical performance for data-driven decision making.",
+            "Engineered Python and Google Apps Script automation tools to clean and import operational data (prospective, applicant, agents, etc.), significantly improving data accuracy and productivity.",
+            "Supervised and mentored multiple team members in advanced data cleaning and importing procedures."
         ]
 
     },
@@ -19,9 +20,11 @@
         "dateRange": "September 2024 - Present",
         "type": "Contract Part-time",
         "location": "Thunder Bay, ON",
-        "bulletpoints": [
-            "Performs social media sentiment analysis and topic modeling to analyze discussions and attitudes surrounding menopause in the workplace.",
-            "Work In Progress Paper accepted into the ASAC 2025 and AOM 2025 conferences in Waterloo, Canada and Copenhagen, Denmark."
+        "bulletpoints": 
+        [
+            "Conducts social media sentiment analysis and topic modelling to find out what workplace demands and resources are present for individuals experiencing ADHD or menopause.",
+            "Cleans, processes, and analyzes large text datasets using Python to extract key themes and behavioral trends.",
+            "Contributed analytical findings to a research paper accepted for presentation at ASAC 2025 and AOM 2025."
         ]
     }
 ]

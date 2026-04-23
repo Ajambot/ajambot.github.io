@@ -23,6 +23,10 @@
         {
             "title": "Vue",
             "image": "VueBlack.png"
+        },
+        {
+            "title": "Svelte",
+            "image": "SvelteBlack.png"
         }
     ],
     "Back-End": [
