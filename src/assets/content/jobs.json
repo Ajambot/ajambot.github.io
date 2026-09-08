@@ -1,18 +1,14 @@
 [
     {
-        "titleOrDegree": "Data Analyst",
-        "companyOrSchool": "Lakehead University International Enrolment",
-        "dateRange": "May 2023 - December 2025",
-        "type": "Full-Time and Part-Time",
-        "location": "Thunder Bay, ON",
+        "titleOrDegree": "Associate Software Developer",
+        "companyOrSchool": "SOTI Inc",
+        "dateRange": "June 2026 - Present",
+        "type": "Contract Full-Time",
+        "location": "Missisauga, ON",
         "bulletpoints": 
         [
-            "Developed and tested multiple machine learning models with Scikit-learn and TensorFlow that predict student enrollment given factors like engagement with marketing campaigns, country, level of study, etc.",
-            "Designed and implemented a historic enrollment analysis dashboard by integrating 7 years of applicant and enrollment data, enabling stakeholders to track key performance indicators (KPIs), identify trends, and evaluate cyclical performance for data-driven decision making.",
-            "Engineered Python and Google Apps Script automation tools to clean and import operational data (prospective, applicant, agents, etc.), significantly improving data accuracy and productivity.",
-            "Supervised and mentored multiple team members in advanced data cleaning and importing procedures."
+            "Designs and builds an internal evaluation framework in Angular and C# to benchmark the performance of open-source and proprietary LLMs across internal use cases, informing model selection and deployment decisions."
         ]
-
     },
     {
         "titleOrDegree": "Research Assistant",
@@ -26,5 +22,20 @@
             "Cleans, processes, and analyzes large text datasets using Python to extract key themes and behavioral trends.",
             "Contributed analytical findings to a research paper accepted for presentation at ASAC 2025 and AOM 2025."
         ]
+    },
+    {
+        "titleOrDegree": "Data Analyst",
+        "companyOrSchool": "Lakehead University International Enrolment",
+        "dateRange": "May 2023 - December 2025",
+        "type": "Full-Time and Part-Time",
+        "location": "Thunder Bay, ON",
+        "bulletpoints": 
+        [
+            "Developed and tested multiple machine learning models with Scikit-learn and TensorFlow that predict student enrollment given factors like engagement with marketing campaigns, country, level of study, etc.",
+            "Designed and implemented a historic enrollment analysis dashboard by integrating 7 years of applicant and enrollment data, enabling stakeholders to track key performance indicators (KPIs), identify trends, and evaluate cyclical performance for data-driven decision making.",
+            "Engineered Python and Google Apps Script automation tools to clean and import operational data (prospective, applicant, agents, etc.), significantly improving data accuracy and productivity.",
+            "Supervised and mentored multiple team members in advanced data cleaning and importing procedures."
+        ]
+
     }
 ]

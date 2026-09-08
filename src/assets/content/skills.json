@@ -25,6 +25,10 @@
             "image": "VueBlack.png"
         },
         {
+            "title": "Angular",
+            "image": "AngularBlack.png"
+        },
+        {
             "title": "Svelte",
             "image": "SvelteBlack.png"
         }
@@ -41,6 +45,10 @@
         {
             "title": "Express.js",
             "image": "ExpressBlack.png"
+        },
+        {
+            "title": ".NET",
+            "image": "DotNetBlack.webp"
         },
         {
             "title": "SQL",
@@ -97,6 +105,10 @@
         {
             "title": "C++",
             "image": "CppBlack.png"
+        },
+        {
+            "title": "C#",
+            "image": "CSBlack.png"
         },
         {
             "title": "Java",
